@@ -1,7 +1,15 @@
 # Freelance-Projects
 
-1) Webscraping Project
+1) Web Scraping Freelance Project (Client Deliverable in JSON Format)
 
-The client was in a need of a JSON file of 10 categories. Each category(a dictionary) had a list of multiple sub categories(dictionaries). Each sub category is a key value pair where some values are strings, others are dictionaries and still others are list of multiple dictionaries. 
+Scraped data from a structured website with 10 top-level categories (direct links). Each category contained hundreds to thousands of sub-links (ranging from ~100 to ~7000). The scraping was performed at three nested levels, ensuring thorough data collection.
 
-Each category was sent separately first to ensure its correctness and the full scraped file with all the 10 categories was sent at the end as the final deliverable.
+The client required the data in a specific JSON format, where:
+
+Each top-level category is a dictionary.
+
+Each sub-category is represented as key-value pairs.
+
+Values included a mix of strings, nested dictionaries, and lists of dictionaries.
+
+To ensure accuracy, each category was shared separately for validation before compiling the complete JSON with all 10 categories for final delivery.
